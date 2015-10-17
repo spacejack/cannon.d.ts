@@ -588,7 +588,7 @@
     export class RaycastVehicle {
 
         chassisBody: Body;
-        wheelInfos: IWheelInfoOptions[];
+        wheelInfos: WheelInfo[];
         sliding: boolean;
         world: World;
         iindexRightAxis: number;
