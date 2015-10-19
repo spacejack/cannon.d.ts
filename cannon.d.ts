@@ -501,7 +501,7 @@
 
         chassisBody?: Body;
         indexRightAxis?: number;
-        indexLeftAxis?: number;
+        indexForwardAxis?: number;
         indexUpAxis?: number;
 
     }
