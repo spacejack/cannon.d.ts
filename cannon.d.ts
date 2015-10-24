@@ -959,7 +959,7 @@
         addConstraint(c: Constraint): void;
         removeConstraint(c: Constraint): void;
         rayTest(from: Vec3, to: Vec3, result: RaycastResult): void;
-        remove(body: Body): void;
+        removeBody(body: Body): void;
         addMaterial(m: Material): void;
         addContactMaterial(cmat: ContactMaterial): void;
         step(dy: number, timeSinceLastCalled?: number, maxSubSteps?: number): void;
