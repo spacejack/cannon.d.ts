@@ -545,7 +545,7 @@
 
     export class WheelInfo {
 
-        maxSuspensionTravbel: number;
+        maxSuspensionTravel: number;
         customSlidingRotationalSpeed: number;
         useCustomSlidingRotationalSpeed: boolean;
         sliding: boolean;
