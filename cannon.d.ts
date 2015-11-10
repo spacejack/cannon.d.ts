@@ -956,6 +956,8 @@
         numObjects(): number;
         collisionMatrixTick(): void;
         addBody(body: Body): void;
+        /** Deprecated. Use addBody instead. */
+        add(body: Body): void;
         addConstraint(c: Constraint): void;
         removeConstraint(c: Constraint): void;
         rayTest(from: Vec3, to: Vec3, result: RaycastResult): void;
